@@ -51,7 +51,7 @@ title: Gallery
             speed: 1000,
         });
 
-        $.getJSON("/museum.json", artworks => {
+        $.getJSON("{{ site.baseurl }}/museum.json", artworks => {
             console.log(artworks);
             artworks.forEach(artwork => {
                 var slideHTML = '<div>';

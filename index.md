@@ -9,8 +9,8 @@ layout: home
 {{ jekyll.environment }}
 <div>
     <ul>
-        <li><a href="/gallery">Gallery</a></li>
-        <li><a href="/museum.json">museum.json</a></li>
+        <li><a href="{{ site.baseurl }}/gallery">Gallery</a></li>
+        <li><a href="{{ site.baseurl }}/museum.json">museum.json</a></li>
     </ul>
     {% for artwork in site.data.museum.artworks %}
         <hr>
