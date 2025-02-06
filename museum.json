@@ -1,0 +1,12 @@
+---
+---
+[
+    {% for artwork in site.data.museum.artworks %}
+    {
+        "title": "{{ artwork.title }}",
+        "artist": "{{ artwork.artist }}",
+        "year": "{{ artwork.year }}",
+        "image": "{{ artwork.url }}"
+    }{% unless forloop.last %},{% endunless %}
+    {% endfor %}
+]
