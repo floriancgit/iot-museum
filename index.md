@@ -5,6 +5,8 @@
 layout: home
 ---
 
+{{ site.url }} / 
+{{ jekyll.environment }}
 <div>
     <ul>
         <li><a href="/gallery">Gallery</a></li>
