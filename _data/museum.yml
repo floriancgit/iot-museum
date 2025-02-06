@@ -1,0 +1,29 @@
+artworks:
+- title: Our Land
+  artist: Kay WalkingStick
+  url: http://www.kaywalkingstick.com/art/canvas_wood/fullsize/Our_Land.jpg
+  year: 2007
+- title: Before and After, 4
+  artist: Andy Wahrol
+  url: https://whitneymedia.org/assets/artwork/3249/71_226_cropped.jpeg
+  year: 1962
+- title: Coming to a Lighter Place
+  artist: Harold Cohen
+  url: https://whitneymedia.org/assets/artwork/67982/T_2023_209_cropped.jpeg
+  year: 1988
+  description: From the software AARON (1973)
+- title: Forcing a passage of the Hudson River, 9 October 1776
+  artist: Thomas Mitchell
+  url: https://upload.wikimedia.org/wikipedia/commons/4/46/Forcing_a_Passage_of_the_Hudson.jpg
+  year: 1776
+  description: HMS Phoenix, Roebuck and Tartar, accompanied by three smaller vessels, forcing their way through a cheval-de-frise on the Hudson River with the Forts Washington and Lee and several batteries on both sides. The painting is a copy by Thomas Mitchell after the original rendering of the subject, a scene from the American Revolutionary War, by Dominic Serres the Elder.
+- title: "The Course of Empire: The Consummation of Empire"
+  artist: Thomas Cole
+  url: https://collectionapi.metmuseum.org/api/collection/v1/iiif/718413/1694150/restricted
+  year: 1835
+  description: The Battle of Long Island, also known as the Battle of Brooklyn and the Battle of Brooklyn Heights, fought on August 27, 1776, was the first major battle in the American Revolutionary War following the United States Declaration of Independence, the largest battle of the entire conflict, and the first battle in which an army of the United States engaged, having declared itself a nation only the month before. It was a victory for the British Army and the beginning of a successful campaign that gave them control of the strategically important city of New York. In terms of troop deployment and fighting, it was the largest battle of the entire war.
+- title: The Castello Plan
+  artist: Jacques Cortelyou
+  url: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Stad_Amsterdam_in_Nieuw_Nederland_%28City_Amsterdam_in_New_Netherland%29_Castello_Plan_1660.jpg/2560px-Stad_Amsterdam_in_Nieuw_Nederland_%28City_Amsterdam_in_New_Netherland%29_Castello_Plan_1660.jpg
+  year: 1660
+  description: The Castello Plan shows the Dutch colonial city of New Amsterdam in 1660. It includes details of the city's layout, the position of the fort, and the location of the church and the city wall.
