@@ -1,7 +1,0 @@
-html>body div#header {height: initial;}
-html>body .submit-row a.deletelink {height: initial;}
-html>body table>caption {caption-side: top}
-/* Bootsrap .collapse hides non-collapsed Django Fieldesets */
-fieldset.module.collapse {
-  display: block;
-}
