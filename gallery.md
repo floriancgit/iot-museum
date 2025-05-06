@@ -17,14 +17,14 @@ title: Gallery
     
     /* Full height slider setup */
     #slider {
-      width: 100%;
+        width: 100vw;
       height: 100vh; /* Full viewport height */
     }
 
     #slider img {
       width: 100%;
       height: 100%;
-      object-fit: cover; /* Make images cover the full container */
+      object-fit: contain; /* Make images cover the full container */
     }
   </style>
 
