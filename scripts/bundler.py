@@ -26,6 +26,7 @@ def add_centered_text_to_image(image, texts, font_path, font_size, color):
     try:
         font = ImageFont.truetype(font_path, font_size)
     except IOError:
+        print(f"Font file not found: {font_path}. Using default font.")
         font = ImageFont.load_default()
 
     # Position the text at the bottom of the image
@@ -38,7 +39,7 @@ def add_centered_text_to_image(image, texts, font_path, font_size, color):
         x_position = (image_width - text_width) // 2
 
         draw.text((x_position, y_position), text, font=font, fill=color)
-        y_position += 40  # Adjust this value to change the spacing between lines
+        y_position += 30  # Adjust this value to change the spacing between lines
 
     return image
 
@@ -60,9 +61,9 @@ def process_artwork(artwork, output_dir):
     final_image = paste_image_onto_black(black_image, resized_image)
     footer_texts = [
         f"{artwork['title']} by {artwork['artist']}",
-        f"{artwork['year']}, {artwork.get('description', '')}",
+        f"{artwork['year']}, {artwork.get('description', '')[:100]}",
     ]
-    final_image_with_text = add_centered_text_to_image(final_image, footer_texts, "arial.ttf", 600, "white")
+    final_image_with_text = add_centered_text_to_image(final_image, footer_texts, "/System/Library/Fonts//Helvetica.ttc", 20, "white")
     filename = f"{slugify(artwork['title'])}.jpg"
     output_path = f"{output_dir}{filename}"
     save_image(final_image_with_text, output_path)
