@@ -12,7 +12,7 @@ layout: home
         <li><a href="{{ site.baseurl }}/gallery">Gallery</a></li>
         <li><a href="{{ site.baseurl }}/museum.json">museum.json</a></li>
     </ul>
-    {% for artwork in site.data.museum.artworks %}
+    {% for artwork in site.data.museum_v2.artworks %}
         <hr>
         <div>{{ artwork.artist }}</div>
         <div><i>{{ artwork.title }}, {{ artwork.year }}</i></div>
