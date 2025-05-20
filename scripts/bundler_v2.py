@@ -1,10 +1,10 @@
 import requests
-# import yaml
 import csv
 import os
 import random
-from PIL import Image, ImageDraw, ImageFont
 from io import BytesIO
+from datetime import datetime
+from PIL import Image, ImageDraw, ImageFont
 from slugify import slugify
 
 HEIGHT = 1080
@@ -77,7 +77,8 @@ def process_artwork(artwork, output_dir):
 with open('_data/museum_v2.csv', mode='r') as file:
     artworks_data = csv.DictReader(file)
 
-    output_directory = '_site/assets/dist/'
+    now = datetime.now()
+    output_directory = f"_site/assets/dist/{now.strftime("%Y%m%d-%H%M%S")}/"
     os.makedirs(os.path.dirname(output_directory), exist_ok=True)
     for artwork in artworks_data:
         process_artwork(artwork, output_directory)
